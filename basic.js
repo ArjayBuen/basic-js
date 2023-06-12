@@ -56,6 +56,34 @@ console.log(name.toLowerCase());
 // var lower=firstName.slice(1,firstName.length).toLowerCase();
 // alert("Hello, " +upper+lower);
 
-var dogAge=prompt("What is your dog age?");
-var humanAge=((dogAge-2)*4)+21;
-alert("Your dog is "+humanAge+" years old in human years.");
+// var dogAge=prompt("What is your dog age?");
+// var humanAge=((dogAge-2)*4)+21;
+// alert("Your dog is "+humanAge+" years old in human years.");
+
+
+function getMilk(money){
+    console.log("leaveHouse");
+    console.log("moveRight");
+    console.log("moveRight");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveRight");
+    console.log("moveRight");
+    var numberOfBottles=Math.floor(money/1.5);
+
+    console.log("The milk you can buy with your $"+money+" money, are "+numberOfBottles+" bottle of milks");
+    console.log("moveLeft");
+    console.log("moveLeft");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveLeft");
+    console.log("moveLeft");
+    console.log("enterHouse");    
+}
+
+getMilk(5);
+
