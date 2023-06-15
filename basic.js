@@ -82,8 +82,21 @@ function getMilk(money){
     console.log("moveDown");
     console.log("moveLeft");
     console.log("moveLeft");
-    console.log("enterHouse");    
+    console.log("enterHouse"); 
+    
+    return money%1.5;
 }
+var change= getMilk(4);
+console.log(change);
 
-getMilk(5);
 
+function lifeInWeeks(age){
+    var yearsRemaining =90-age;
+    var days=yearsRemaining*365;
+    var weeks=yearsRemaining*52;
+    var month=yearsRemaining*12;
+
+    //outputs your days, weeks, and months left if average life is 90 yrs. old
+    console.log(`You have ${days} days, ${weeks} weeks, and ${month} months left`);
+}
+lifeInWeeks(22);
