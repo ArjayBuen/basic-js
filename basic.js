@@ -100,3 +100,13 @@ function lifeInWeeks(age){
     console.log(`You have ${days} days, ${weeks} weeks, and ${month} months left`);
 }
 lifeInWeeks(22);
+
+function bmiCalculator(weight,height){
+    let cmToMeter=height*0.01;
+    let calculation=weight/Math.pow(cmToMeter,2);
+    return parseFloat(calculation.toFixed(2));
+
+}
+
+var bmi=bmiCalculator(46,156);//(kg,cm)
+console.log(bmi);
